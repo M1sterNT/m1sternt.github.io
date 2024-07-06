@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   css: ['@/assets/css/tailwind.css'],
+  app: {
+    baseURL: '/', // ควรตั้งให้เป็น '/' หากเป็น repository หลัก
+  },
 })
